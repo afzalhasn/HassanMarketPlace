@@ -8,6 +8,8 @@ All notable, unreleased changes to this project will be documented in this file.
 
 ### GraphQL API
 
+- Add meta fields to `ProductMedia` model - #11894 by @zedzior
+
 ### Other changes
 
 # 3.11.0
