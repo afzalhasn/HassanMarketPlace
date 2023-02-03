@@ -379,7 +379,7 @@ class OrderSettingsUpdateInput(graphene.InputObjectType):
     automatically_fulfill_non_shippable_gift_card = graphene.Boolean(
         required=False,
         description="When enabled, all non-shippable gift card orders "
-        "will be fulfilled automatically. By defualt set to True",
+        "will be fulfilled automatically. By defualt set to True.",
     )
 
 
@@ -393,7 +393,7 @@ class OrderSettingsUpdate(BaseMutation):
 
     class Meta:
         description = (
-            "Update shop order settings across all channels "
+            "Update shop order settings across all channels. "
             "Returns `orderSettings` for the first `channel` in alphabetical order. "
             "Use `channelUpdate` mutation instead."
         )

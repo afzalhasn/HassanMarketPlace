@@ -233,8 +233,7 @@ type Query {
   shop: Shop!
 
   """
-  Order related settings from site settings.
-   Returns `orderSettings` for the first `channel` in alphabetical order.
+  Order related settings from site settings. Returns `orderSettings` for the first `channel` in alphabetical order.
   
   Requires one of the following permissions: MANAGE_ORDERS.
   """
@@ -12356,7 +12355,7 @@ type Mutation {
   ): ShopAddressUpdate
 
   """
-  Update shop order settings across all channels Returns `orderSettings` for the first `channel` in alphabetical order. Use `channelUpdate` mutation instead. 
+  Update shop order settings across all channels. Returns `orderSettings` for the first `channel` in alphabetical order. Use `channelUpdate` mutation instead. 
   
   Requires one of the following permissions: MANAGE_ORDERS.
   """
@@ -16907,7 +16906,7 @@ type ShopAddressUpdate {
 }
 
 """
-Update shop order settings across all channels Returns `orderSettings` for the first `channel` in alphabetical order. Use `channelUpdate` mutation instead. 
+Update shop order settings across all channels. Returns `orderSettings` for the first `channel` in alphabetical order. Use `channelUpdate` mutation instead. 
 
 Requires one of the following permissions: MANAGE_ORDERS.
 """
@@ -16943,7 +16942,7 @@ input OrderSettingsUpdateInput {
   automaticallyConfirmAllNewOrders: Boolean
 
   """
-  When enabled, all non-shippable gift card orders will be fulfilled automatically. By defualt set to True
+  When enabled, all non-shippable gift card orders will be fulfilled automatically. By defualt set to True.
   """
   automaticallyFulfillNonShippableGiftCard: Boolean
 }
@@ -22402,7 +22401,7 @@ input OrderSettingsInput {
   automaticallyConfirmAllNewOrders: Boolean
 
   """
-  When enabled, all non-shippable gift card orders will be fulfilled automatically. By defualt set to True
+  When enabled, all non-shippable gift card orders will be fulfilled automatically. By defualt set to True.
   """
   automaticallyFulfillNonShippableGiftCard: Boolean
 }

@@ -30,8 +30,8 @@ class ShopQueries(graphene.ObjectType):
     order_settings = PermissionsField(
         OrderSettings,
         description=(
-            "Order related settings from site settings."
-            "\n Returns `orderSettings` for the first `channel` in "
+            "Order related settings from site settings. "
+            "Returns `orderSettings` for the first `channel` in "
             "alphabetical order."
         ),
         deprecation_reason=(
